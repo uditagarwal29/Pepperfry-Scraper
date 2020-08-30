@@ -16,9 +16,6 @@ class pepperfrySpider(scrapy.Spider):
         urls = []
         dir_names=[ ]
         category = []
-        # Coding Blocks Categories :-
-        #'arm chair','bean bag','bench','book case','chest drawers','coffee tables','dining set',
-        #'garden seating','king beds','queen beds','two seater sofa'
 
         print("-----------------------------------------------------------------------------")
         n = int(input("Enter number of categories you want : "))
